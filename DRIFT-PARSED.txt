@@ -1,0 +1,192 @@
+PACKET 6:
+    AES FIRST 8 BYTE: 61cb506b8ff1b477
+
+PACKET 9 : 001a 9191c45d7fe2ddca 39f35ca00eb0ada6c29996f1bf9eb2e7
+TO DECRYPT DATA: Key of AES-ECB-128 BIT is 61cb506b8ff1b477 + 9191c45d7fe2ddca = 61cb506b8ff1b4779191c45d7fe2ddca
+DECRYPTED DATA: READ-SENSOR-RESPONSE 
+    CODE : 03
+    RESPONSE: 00
+    SENSOR ID: 64
+    VALUE: 00000206
+
+PACKET 12: 001a 4e1108fcd517e608 4b14677d65c72d389613c35d49dd706f
+DECRYPTED: READ-SENSOR-RESPONSE
+    CODE: 03
+    RESPONSE: 00
+    SENSOR ID: 65
+    VALUE: 000001bd
+
+PACKET 15: 007a 698775b2b7db0755 5b5009afb299ed1c403d011e5bc62cc57746ee94d497c18716144fe8bbc43628916d7e4659191bf025b769a5a4fa2cb80ceec2cd481cb4346b84fc33746b768477d989785d099b2482c1370190aff311c4f49cdc6938458e91bcd66f098b071172a19f4ed8573bba2a9303c14a793d46
+DECRYPTED VALUE: GET-SENSOR-RANGES RESPONSE
+    CODE: 06
+    RESPONSE: 00
+    SENSOR COUNT: 06
+    LIST OF SENSOR RANGES:
+        1. 
+            SENSOR ID: 64
+            WARNING-LOW:  000001e0
+            WARNING-HIGH: 0000023a
+            ALERT-LOW:    000001c2
+            ALERT-HIGH:   00000258
+        2.    
+            SENSOR ID: 65
+            WARNING-LOW:  0000019a
+            WARNING-HIGH: 000001ea
+            ALERT-LOW:    00000190
+            ALERT-HIGH:   000001f4
+        3.    
+            SENSOR ID: 66
+            WARNING-LOW:  00000041
+            WARNING-HIGH: 0000004b
+            ALERT-LOW:    0000003c
+            ALERT-HIGH:   00000050
+        4.    
+            SENSOR-ID: 67
+            WARNING-LOW:  00000041
+            WARNING-HIGH: 0000004b
+            ALERT-LOW:    0000003c
+            ALERT-HIGH:   00000050
+        5.    
+            SENSOR ID: 68
+            WARNING-LOW:  00000041
+            WARNING-HIGH: 0000004b
+            ALERT-LOW:    0000003c
+            ALERT-HIGH:   00000050
+        6.    
+            SENSOR ID: 69
+            WARNING-LOW:  00000041
+            WARNING-HIGH: 0000004b
+            ALERT-LOW:    0000003c
+            ALERT-HIGH:   00000050
+
+PACKET 25:
+    AES FIRT 8 BYTE: 85dc311feb510333
+
+PACKET 28: 001a 9696e1bbf2657f37 c0746dc01801a77ab923646606b0e213
+DECRYPTED VALUE: READ-SENSOR RESPONSE
+    CODE: 03
+    ERROR CODE: 03
+
+PACKET 31: 009a 652a8485fa19e736 f4b6687345d1072bc851d2e1b44da2eae6fb698f1269b281330a7aaa1b22ac24b75c0a91250606d315bac6ef8e41657cd8331173beda129a503f4d937187f49aacfb9f4325bd0bcde382b93cce3c4e3d77f6c57d51d1fb81fdf6673e09b603d167b8d5e01bfec71a24620961bc2630c153a0004f50dc1496526e2f3fda65e5e256cd569bc84287c35ebee3cf98bdd38f
+DECRYPTED VALUE: GET-SENSOR RANGES RESPONSE
+    CODE: 06
+    RESPONSE: 00
+    SENSOR COUNT: 08
+    LOST OF SENSOR RANGES:
+        1. 
+            SENSOR ID: 6a
+            WARNING-LOW:  00000002
+            WARNING-HIGH: 00000006
+            ALERT-LOW:    00000001
+            ALERT-HIGH:   00000007
+        2.    
+            SENSOR ID: 6b
+            WARNING-LOW:  00000320
+            WARNING-HIGH: 00000384
+            ALERT-LOW:    000002bc
+            ALERT-HIGH:   000003e8
+        3.    
+            SENSOR ID: 6d
+            WARNING-LOW:  00000320
+            WARNING-HIGH: 00000384
+            ALERT-LOW:    000002bc
+            ALERT-HIGH:   000003e8
+        4.    
+            SENSOR ID: 6e
+            WARNING-LOW:  00000023
+            WARNING-HIGH: 00000028
+            ALERT-LOW:    00000021
+            ALERT-HIGH:   0000002a
+        5.    
+            SENSOR ID: 6f
+            WARNING-LOW:  0000000f
+            WARNING-HIGH: 00000019
+            ALERT-LOW:    0000000c
+            ALERT-HIGH:   0000001c
+        6.    
+            SENSOR ID: 70
+            WARNING-LOW:  0000000f
+            WARNING-HIGH: 00000019
+            ALERT-LOW:    0000000c
+            ALERT-HIGH:   0000001c
+        7.    
+            SENSOR ID: 71
+            WARNING-LOW:  00002710
+            WARNING-HIGH: 00002af8
+            ALERT-LOW:    00002328
+            ALERT-HIGH:   00002ee0
+        8.    
+            SENSOR ID: 72
+            WARNING-LOW:  00000001
+            WARNING-HIGH: 00000003
+            ALER-LOW:     00000000
+            ALERT-HIGH:   00000004
+
+PACKET 41:
+    AES FIRST 8 BYTE: 9bc665880b5df8fc
+
+PACKET 44: 001a 64314cb84d00adde e6843f0381d1db25da6b2506dd76f524
+DECRYPTED VALUE: GET ALARMS
+    CODE: 07
+    RESPONSE: 00
+    ALARM COUNT: 02
+    LIST OF ALARM DATA: 
+        1.
+            SENSOR ID: 66
+            ALARM CODE: a0
+            VALUE: 0000003f
+        2.    
+            SENSOR ID: 6b
+            ALARM CODE: b1
+            VALUE: 0000041a
+
+PACKET 47: 005a 1ef47c315f6a4017 56056ba465fcb3ca8ae51a5298f54b195099aa8e502c2a3376a605e8d87d90c1c5ab3fcd2992f4a560d546a61cd10bc4da6589fe2b5d94810042c7e74158b316cbd23d2c605f920cf307d424c45a9203
+DECRYPTED DATA: READ ALL SENSORS
+    CODE: 04
+    RESPONSE: 00
+    SENSOR COUNT: 0e
+    LIST OF SENSOR VALUES: 
+        1.
+            SENSOR ID: 72
+            VALUE:     00000002
+        2.    
+            SENSOR ID: 70
+            VALUE:     00000013
+        3.    
+            SENSOR ID: 65
+            VALUE:     000001bd
+        4.    
+            SENSOR ID: 64
+            VALUE:     00000206
+        5.    
+            SENSOR ID: 69
+            VALUE:     00000046
+        6.    
+            SENSOR ID: 6d
+            VALUE:     0000033e
+        7.    
+            SENSOR ID: 71
+            VALUE:     00002742
+        8.    
+            SENSOR ID: 6a
+            VALUE:     00000004
+        9.    
+            SENSOR ID: 6f
+            VALUE:     00000012
+        10.    
+            SENSOR ID: 6e
+            VALUE:     0000001f
+        11.   
+            SENSOR ID: 66
+            VALUE:     0000003f
+        12.    
+            SENSOR ID: 68
+            VALUE:     00000048
+        13.    
+            SENSOR ID: 67
+            VALUE:     00000043
+        14.    
+            SENSOUR ID: 6b
+            VALUE:     0000041a
+
+
